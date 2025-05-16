@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copy This</title>
+</head>
+<body>
+    Please don't copy this text
+    
+</body>
+<script>   
+    document.addEventListener("copy", (event) => {
+        const selectedData = window.getSelection().toString();
+        event.clipboardData.setData(
+            "text/plain",
+            "You have been Hacked!"
+    );
+    event.preventDefault();
+        
+    });
+</script>
+</html>
