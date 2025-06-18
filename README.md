@@ -1,2 +1,2 @@
 # security
-All security related tools/projects
+You can find detailed Notes for each topic with some simple tools made during practice
